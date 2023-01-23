@@ -56,7 +56,7 @@ public:
 	int levelCount ; 
 	bool ifnextlv;
 	/////// for the map setting 
-	Cmap level[10]; 
+	vector<Cmap> level; 
 	int goalxy[2];
 	int startxy[2];
 	int m_time ;
